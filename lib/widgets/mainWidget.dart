@@ -180,7 +180,7 @@ List<Widget> _buildIncomeList(CalcModel model) {
       Padding(
         padding: const EdgeInsets.all(1.0),
         child: Text(
-            "${i + 1} месяц: ${model.incomeBySpecificMonth(i).toStringAsFixed(2)} ₽"),
+            "${i + 1} месяц: ${model.incomeBySpecificMonth(i+1).toStringAsFixed(2)} ₽"),
       ),
     );
   }
